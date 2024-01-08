@@ -1,0 +1,43 @@
+.container{
+    align-items: center;
+}
+.banner{
+    display: flex;
+    width: 1320px;
+    height: 600px;
+    background-image:url(../resources/BannerImage.png);
+    justify-content: center;
+    align-items: center;
+}
+.sub-tile{
+    text-align: center;
+    align-items: center;
+  font-size: 32px;
+  color: white;
+}
+.title{
+    font-size: 72px;
+    color: white;
+}
+.off{
+color: #FF0000;
+ font-size: 88px;
+ font-family: Inter;
+ font-weight: 700;
+text-align: center;
+}
+
+.our{
+color: #FF0000;
+ font-size: 24px;
+ font-family: Inter;
+ font-weight: 500;
+ text-align: center;
+}
+.all{ 
+color: #070211;
+ font-size: 48px;
+ font-family: Inter;
+ font-weight: 700;
+ text-align: center;
+}
