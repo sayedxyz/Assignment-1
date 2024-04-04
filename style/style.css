@@ -1,13 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: auto;
+    padding: auto;
 }
 
-header{
+header {
     color: rgb(255, 255, 255);
 }
-.header-box{  
-   height: 600px;
+
+.header-box {
+    height: 600px;
     width: 1320px;
     background-image: url("../resources/BannerImage.png");
     display: flex;
@@ -15,48 +16,58 @@ header{
     align-items: center;
 }
 
-.title{
-   text-align: center;
-   align-items:center;
-}
-.title p{
-    font-size: 32px;
-    color: rgba(255, 255, 255, 0.899);
-    font-family: Merriweather;
-    font-weight: 400;
-}
-.title h1{
-    font-size: 72px;
-    color: rgba(255, 255, 255, 0.901);
-    font-family: Merriweather;
-    font-weight: 400;
-}
-.off{
-    margin-top: 50px;
-color: #FF0000;
- font-size: 88px;
- font-family: Inter;
- font-weight: 700;
-text-align: center;
+.title {
+    text-align: center;
+    align-items: center;
 }
 
-.our{
-    margin-top: 50px;
- color: #FF0000;
- font-size: 24px;
- font-family: Inter;
- font-weight: 500;
- text-align: center;
+.title p {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.899);
+    font-family: "Merriweather", serif;
+    font-weight: regular;
 }
-.all{ 
-    margin-top: 50px;
-color: #070211;
- font-size: 48px;
- font-family: Inter;
- font-weight: 700;
- text-align: center;
+
+.title h1 {
+    font-size: 72px;
+    color: rgba(255, 255, 255, 0.901);
+    font-family: "Merriweather", serif;
+    font-weight: black;
 }
-img{
-    justify-content: center;
-    align-items: center;
+
+.off {
+    margin-top: 50px;
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Inter;
+    font-weight: bold;
+    text-align: center;
+}
+
+.our {
+    margin-top: 40px;
+    color: #FF0000;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: medium;
+    text-align: center;
+}
+
+.all {
+    margin-top: 10px;
+    color: #070211;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.new-image {
+    margin-top: 35px;
+    margin: auto;
+    text-align: center;
+}
+
+.image-position {
+    margin-top: 35px;
 }
