@@ -3,17 +3,18 @@
     padding: auto;
 }
 
-header {
-    color: rgb(255, 255, 255);
-}
-
 .header-box {
     height: 600px;
     width: 1320px;
-    background-image: url("../resources/BannerImage.png");
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(7, 2, 18, 1), rgba(7, 2, 17, 0)),
+        url("../resources/BannerImage.png");
+    /* background-image: url("../resources/BannerImage.png"); */
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    border-radius: 16px;
 }
 
 .title {
@@ -70,4 +71,55 @@ header {
 
 .image-position {
     margin-top: 35px;
+}
+
+.midnight-container {
+    margin: auto;
+    margin-top: 100px;
+    width: 1320px;
+    height: 600px;
+    background: url(../resources/Group\ 98.png);
+}
+
+.park {
+    margin: auto;
+    margin-top: 100px;
+    width: 1320px;
+    height: 480px;
+    /* border: #FF0000 solid 3px; */
+    text-align: center;
+    align-content: center;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: semi-bold;
+    line-height: 1.5;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 168px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-container {
+    margin: auto;
+    width: 1600px;
+    height: 609px;
+    border-style: dotted;
 }
