@@ -107,6 +107,27 @@
     font-family: "Inter", sans-serif;
 }
 
+.coming-soon{
+    width: 1320px;
+    height: 495px;
+    /* border: solid 3px; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.new-best-offer{
+    color: red;
+    font-size: 24px;
+    font-weight: medium;
+    font-family: "Inter", sans-serif;
+}
+
+.coming-soon-text{
+    font-family: "Merriweather", serif;
+    font-weight: black;
+    font-size: 48px;
+    margin-top: 15px;
+}
 
 
 
